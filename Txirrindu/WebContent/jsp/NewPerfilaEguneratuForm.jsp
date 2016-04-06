@@ -13,7 +13,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>perfina eguneratu</title>
 <link href="/Txirrindu/css/styleSheet.css" rel="stylesheet" />
 </head>
 <body>
@@ -58,9 +58,15 @@
 	 			</table>
 	 			<button>Aldatu</button>
 	 	</section>
+	 	<section>
+				<a href="/Txirrindu/jsp/nagusia.jsp"
+						style="text-decoration: none"> <font color="black">Orrialde nagusira bueltatu</font>
+				</a>
+		</section>
 		
 </form>
 
 
 </body>
+<footer>Zornotzako txirrindulari taldea</footer> 
 </html>

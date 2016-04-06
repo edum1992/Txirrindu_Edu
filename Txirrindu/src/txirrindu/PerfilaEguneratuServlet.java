@@ -42,7 +42,7 @@ public class PerfilaEguneratuServlet extends HttpServlet {
 		String phoneNumber = request.getParameter("phoneNumber");
 		
 		mySQLdb.updatePerfil(email, username1, name, surname1, surname2, postalCode, country, city, phoneNumber);
-		response.sendRedirect("/Txirrindu/html/nagusiaForm.html");
+		response.sendRedirect("/Txirrindu/jsp/nagusia.jsp");
 	}
 
 }

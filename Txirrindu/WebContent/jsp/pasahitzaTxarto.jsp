@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>pasahitza aldatu</title>
 <link href="/Txirrindu/css/styleSheet.css" rel="stylesheet" />
 </head>
 <body>
@@ -24,11 +24,18 @@
 	<form method="POST" action="/Txirrindu/servlet/pasahitzaAldatuServlet">
 		<section> <font color="white">Pasahitz zaharra sartu</font>
 		<td><input type="password" name="password1" /></td>
-		</section>
-		<section> <font color="white">Pasahitz berria sartu</font>
+
+		<font color="white">Pasahitz berria sartu</font>
 		<td><input type="password" name="password2" /></td>
-		</section>
 		<button>Aldatu</button>
+		</section>
+		
 	</form>
+	<section>
+				<a href="/Txirrindu/jsp/nagusia.jsp"
+						style="text-decoration: none"> <font color="black">Orrialde nagusira bueltatu</font>
+				</a>
+		</section>
 </body>
+<footer>Zornotzako txirrindulari taldea</footer> 
 </html>

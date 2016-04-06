@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link href="/Txirrindu/css/styleSheet.css" rel="stylesheet" />
-<title>Insert title here</title>
+<title>Login egiteko formularioa</title>
 </head>
 	<body>
 		<header>
@@ -19,6 +19,7 @@
 		<% } %>
 			<form method="POST" action="/Txirrindu/servlet/LoginServlet">
 				<table>
+					<th> LOGIN </th>
 	   				<tr>
 	   					<td>Email:</td>
 	   					<td><input name="email"/></td>
@@ -36,6 +37,7 @@
 				<font color="white">Sign Up</font>
 			</a>
 		</section>
-		<footer>Web Systems - EUITI Bilbao</footer> 
+		</section>
 	</body>
+	<footer>Zornotzako txirrindulari taldea</footer> 
 </html>

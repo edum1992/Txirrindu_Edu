@@ -8,20 +8,26 @@
 <body>
 <header>
 			<h1>Zornotzako txirrindulari taldea</h1>
-			</header>
+			
 			<h2>Pasahitza aldatzeko formularioa</h2>
+			</header>
 <form method="POST" action="/Txirrindu/servlet/pasahitzaAldatuServlet">
 	<section>
 				<font color="white">Pasahitz zaharra sartu</font>
 				<td><input type="password" name="password1"/></td>
-			</section>
-			<section>
 				<font color="white">Pasahitz berria sartu</font>
 				<td><input type="password" name="password2"/></td>
+				<button>Aldatu</button>
 			</section>
-		<button>Aldatu</button>
+		
+		<section>
+				<a href="/Txirrindu/jsp/nagusia.jsp"
+						style="text-decoration: none"> <font color="black">Orrialde nagusira bueltatu</font>
+				</a>
+		</section>
 </form>
 
 
 </body>
+<footer>Zornotzako txirrindulari taldea</footer> 
 </html>

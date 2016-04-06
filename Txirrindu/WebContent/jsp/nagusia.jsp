@@ -12,7 +12,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>nagusia</title>
 <link href="/Txirrindu/css/styleSheet.css" rel="stylesheet" />
 </head>
 <body>
@@ -29,7 +29,7 @@
 			<% for(Map.Entry<String, String> entry : loggedinUsers.entrySet()) { %>
 	            <%= entry.getKey() %>
 	        <% } %>
-		</section>
+	</section>
 		<section>
 			<table>
 				<th>hautatu egin nahi duzun eragiketa</th>
@@ -57,18 +57,16 @@
 								ziurtagiria eskuratu</font>
 					</a></td>
 				</tr>
-				
-
 			</table>
-			<section>
+		</section>
+		<section>
 				<a href="/Txirrindu/html/loginForm.html"
 						style="text-decoration: none"> <font color="black">Login
-								orrialdera bueltatu</font></section>
-			</section>
+								orrialdera bueltatu</font>
+				</a>
+		</section>
 	</form>
-
-
+ 
 </body>
-
-</body>
+<footer>Zornotzako txirrindulari taldea</footer> 
 </html>

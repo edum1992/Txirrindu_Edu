@@ -44,7 +44,7 @@ td {
 th {
   padding: 10px;
   font-size: 25px;
-  background-color: #004000;
+  background-color: #008000;
 }
 
 tr:nth-child(odd) {
@@ -71,7 +71,7 @@ section, aside {
   border-radius: 5px;
   padding: 10px;
   margin: 4px;
-  background-color: #008000;
+  background-color: #80ff00;
 }
 
 header {
@@ -79,9 +79,9 @@ header {
   border-radius: 0px;
   padding: 0 5px 5px 5px;
   margin: 4px;
-  background-color: #0000ff;
+  background-color: #008000;
   border: 10px ridge;
-  border-color: #0080c0;
+  border-color: #008000;
   font-size:20px;
 }
 
@@ -90,7 +90,7 @@ footer {
   border-radius: 5px;
   padding: 10px;
   margin: 4px;
-  background-color: #804000;
+  background-color: #808000;
   font-size: 0.8em;
 }
 
