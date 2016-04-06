@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Txirrindu</display-name>
+  <welcome-file-list>
+    <welcome-file>/html/sarreraForm.html</welcome-file>
+  </welcome-file-list>
+  <session-config>
+    <session-timeout>5</session-timeout>
+  </session-config>
+  <listener>
+    <listener-class>txirrindu.MySessionListener</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>SignupServlet</servlet-name>
+    <servlet-class>txirrindu.SignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignupServlet</servlet-name>
+    <url-pattern>/servlet/SignupServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>txirrindu.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MainServlet</servlet-name>
+    <servlet-class>txirrindu.MainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MainServlet</servlet-name>
+    <url-pattern>/servlet/MainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SarreraServlet</servlet-name>
+    <servlet-class>txirrindu.SarreraServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SarreraServlet</servlet-name>
+    <url-pattern>/servlet/SarreraServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>pasahitzaAldatuServlet</servlet-name>
+    <servlet-class>txirrindu.pasahitzaAldatuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pasahitzaAldatuServlet</servlet-name>
+    <url-pattern>/servlet/pasahitzaAldatuServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PDFServlet</servlet-name>
+    <servlet-class>txirrindu.PDFServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PDFServlet</servlet-name>
+    <url-pattern>/servlet/PDFServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LizentziaEguneratuServlet</servlet-name>
+    <servlet-class>txirrindu.LizentziaEguneratuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LizentziaEguneratuServlet</servlet-name>
+    <url-pattern>/servlet/LizentziaEguneratuServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PerfilaEguneratuServlet</servlet-name>
+    <servlet-class>txirrindu.PerfilaEguneratuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PerfilaEguneratuServlet</servlet-name>
+    <url-pattern>/servlet/PerfilaEguneratuServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

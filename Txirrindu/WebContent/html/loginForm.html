@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LoginForm</title>
+		<link href="/Txirrindu/css/styleSheet.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<h1>Zornotzako txirrindulari taldea</h1>
+			<h3>Zure kontura logeatu</h3>
+		</header>
+		<section>
+			<form method="POST" action="/Txirrindu/servlet/LoginServlet">
+				<table>
+	   				<tr>
+	   					<td>Email:</td>
+	   					<td><input name="email"/></td>
+	   				</tr>
+	   				<tr>
+	   					<td>Pasahitza:</td>
+	   					<td><input type="password" name="password"/></td>
+	   				</tr>
+	   				
+	 			</table>
+				<button>Bidali</button>
+			</form>
+		</section>
+		<section>
+			<a href="/Txirrindu/html/signupForm.html" style="text-decoration: none">
+				<font color="white">Saio berria sortu</font>
+			</a>
+		</section>
+		<footer>Web Systems - EUITI Bilbao</footer> 
+	</body>
+</html>
